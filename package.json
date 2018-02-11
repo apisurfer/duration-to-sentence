@@ -1,0 +1,27 @@
+{
+  "name": "duration-to-sentence",
+  "version": "0.0.1",
+  "main": "dist/bundle.js",
+  "author": "Luka Vidakovic (https://popc0rn.me)",
+  "license": "MIT",
+  "keywords": [
+    "time",
+    "duration",
+    "humanize",
+    "transform",
+    "seconds"
+  ],
+  "scripts": {
+    "start": "node dist/bundle.js",
+    "test": "tsc; ./node_modules/.bin/tape './dist/test/**/*.js' | ./node_modules/.bin/tap-spec"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.3",
+    "source-map-loader": "^0.2.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3",
+    "typescript": "^2.3.2",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.5.1"
+  }
+}
